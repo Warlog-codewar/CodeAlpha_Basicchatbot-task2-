@@ -21,8 +21,22 @@ def get_response(user_input):
     return responses.get(user_input, responses["default"])
 
 def main():
-    print("Welcome sir/ma'am  Chiggu this side a simple chatbot! Type 'bye' to exit.")
-
+    print("     _______")
+    print("    /       \\")
+    print("   |  O   O  |")
+    print("@  |    >    |   @")  
+    print(" \ |  \\___/ |  /")
+    print("  \ \\_______/ /")
+    print("   \ /     \\/ ")
+    print("    |       |")
+    print("    |  ___  |")
+    print("    | |___| |")
+    print("    |_______|")
+    print("    ||   ||  ")
+    print("    ||   ||  ")
+    print("   ∆o∆   ∆o∆")
+          
+    print("\nHello! I am Chiggu a basic chatbot created by Mr Kartik Singh.")
     while True:
         # Get user input
         user_input = input("You: ")
